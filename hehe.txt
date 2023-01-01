@@ -1,0 +1,33 @@
+Step1: git init
+-> Khởi tạo repo dưới local.
+
+Step2: git checkout -b develop
+-> Tạo nhánh mới có tên là develop.
+
+Step3: Commit code
+- git add fileNam -> add từng file một.
+- git add . ->add tất cả các file.
+- git commit -m "Message"
+
+Step4: Add remote
+- git remote add origin https://github.com/VuongDT1/learngit.git
+
+Step5: Push code
+- git push origin
+
+-> làm xong task
+
+Các câu lệnh git cơ bản
+- git branch -d tên_nhánh -> Xoá 1 nhánh
+- git checkout -b tên_nhánh -> Tạo mới nhánh và chuyển nhánh
+- git branch -> xem danh sách nhánh
+- git checkout tên_nhánh -> chuyển nhánh
+- git remote add tên_remote link_remote -> Thêm mới một remote
+- git add fileName -> add 1 file
+- git add . -> add nhiều file.
+- git comit -m "Nội dung message"	(muốn commit thì phải add trước)
+- git push origin tên_nhánh -> Đẩy code lên nhánh (origin là tên remote chúng ta đặt)
+- git pull origin tên_nhanh -> Pull code (kéo code) mới nhất về máy
+
+
+ 
